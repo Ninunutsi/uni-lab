@@ -25,7 +25,7 @@ const FormPage = () => {
         };
 
         checkAuthentication();
-    }, [authenticated, navigate, logout]);
+    }, [authenticated, navigate, logout, login]);
 
     if (isLoading) {
         return <p>Loading</p>;

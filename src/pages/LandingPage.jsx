@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 const LandingPage = () => {
     return (
         <main className="landing-page-container fadeIn">
-            <img src={png} alt="image-pass-through" />
+            <img src={png} alt="pass-through" />
             <h1>Get Started Today</h1>
 
             {/* goes  to registration page*/}

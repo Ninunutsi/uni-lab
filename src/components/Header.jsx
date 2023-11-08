@@ -17,7 +17,7 @@ const Header = () => {
 
     // closes modal
     const closeModal = (e) => {
-        if (e.target.id == "close" || e.target.id == "overlay") {
+        if (e.target.id === "close" || e.target.id === "overlay") {
             setIsOpen(false);
         }
     };
